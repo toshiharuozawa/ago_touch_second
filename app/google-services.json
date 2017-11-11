@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "496287151592",
+    "firebase_url": "https://ago-touch.firebaseio.com",
+    "project_id": "ago-touch",
+    "storage_bucket": "ago-touch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209109689792:android:463e3def0de05f38",
+        "android_client_info": {
+          "package_name": "collection.qzawa.com.ago_touch_second"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496287151592-dgr7tdv1mj90irats7cp6rrcc48felrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzWOoB4jB5-TVD_0pPHBhKFct10NlOWXQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
