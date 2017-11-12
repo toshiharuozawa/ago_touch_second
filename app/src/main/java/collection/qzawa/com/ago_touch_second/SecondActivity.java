@@ -5,7 +5,8 @@ import android.content.Intent;
 import android.media.AudioAttributes;
 import android.media.SoundPool;
 import android.os.Build;
-import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -14,7 +15,8 @@ import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
-public class SecondActivity extends AppCompatActivity {
+//public class SecondActivity extends AppCompatActivity {
+    public class SecondActivity extends Activity{
 
     private int mCount;
     private AudioAttributes audioAttributes;

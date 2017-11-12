@@ -18,13 +18,15 @@ tools:context=".MainActivity">
 
 <TextView
     android:id="@+id/textView1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="30dp"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="18dp"
     android:layout_marginTop="30dp"
     android:text="0"
     android:textColor="#FFFFFF"
-    android:textSize="25sp"/>
+    android:textSize="25sp"
+    android:gravity="center_horizontal"
+    />
 
 <Button
     android:id="@+id/button1"
@@ -35,42 +37,43 @@ tools:context=".MainActivity">
     android:onClick="plus"
     android:background="@null" />
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="0dip"
-    android:layout_weight="1"
-    android:gravity="center|bottom"
-    android:orientation="vertical" >
 
-</LinearLayout>-->
 
-<Button
-    android:id="@+id/button2"
-    android:layout_width="80dp"
-    android:layout_height="50dp"
-    android:layout_alignParentBottom="true"
-    android:layout_alignParentLeft="true"
-    android:layout_marginBottom="60dp"
-    android:layout_marginLeft="320dp"
-    android:onClick="clear"
-    android:text="RESET"
-    android:textSize="20sp"
-    android:textStyle="italic"
-    android:background="@drawable/layout" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginRight="20dp"
+            android:onClick="clear"
+            android:text="RESET"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:background="@drawable/layout"
+            android:layout_gravity="center"
 
-<Button
-    android:id="@+id/button3"
-    android:layout_width="80dp"
-    android:layout_height="50dp"
-    android:layout_alignParentBottom="true"
-    android:layout_alignParentLeft="true"
-    android:layout_marginBottom="60dp"
-    android:layout_marginLeft="20dp"
-    android:text="BACK"
-    android:textSize="20sp"
-    android:textStyle="italic"
-    android:onClick="onBackButtonClick"
-    android:background="@drawable/layout" />
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="20dp"
+            android:text="BACK"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:onClick="onBackButtonClick"
+            android:background="@drawable/layout"
+            android:layout_gravity="center"
+
+            />
+
+
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
