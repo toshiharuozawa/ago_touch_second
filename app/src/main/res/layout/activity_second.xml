@@ -37,15 +37,13 @@ tools:context=".MainActivity">
     android:onClick="plus"
     android:background="@null" />
 
-
-
         <Button
             android:id="@+id/button2"
             android:layout_width="80dp"
             android:layout_height="50dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:layout_marginBottom="60dp"
+            android:layout_marginBottom="80dp"
             android:layout_marginRight="20dp"
             android:onClick="clear"
             android:text="RESET"
@@ -62,7 +60,7 @@ tools:context=".MainActivity">
             android:layout_height="50dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
-            android:layout_marginBottom="60dp"
+            android:layout_marginBottom="80dp"
             android:layout_marginLeft="20dp"
             android:text="BACK"
             android:textSize="20sp"
@@ -73,9 +71,7 @@ tools:context=".MainActivity">
 
             />
 
-
-
-    <com.google.android.gms.ads.AdView
+        <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -84,8 +80,6 @@ tools:context=".MainActivity">
         ads:adSize="SMART_BANNER"
         ads:adUnitId="ca-app-pub-4898079436017022/7252852144">
     </com.google.android.gms.ads.AdView>
-
-
 
 </RelativeLayout>
 
